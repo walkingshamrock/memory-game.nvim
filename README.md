@@ -23,11 +23,15 @@ Memory Game is a simple and interactive game designed to test and improve your m
 4. Restart Neovim and run `:Lazy sync` to install the plugin.
 
 ## Usage
-1. Run the game using your preferred Lua environment:
-   ```bash
-   lua lua/memory_game.lua
+1. Start Neovim.
+2. Run the following command to start the game:
+   ```vim
+   :MemoryGame
    ```
-2. Follow the on-screen instructions to play the game.
+3. Use the arrow keys or `h`, `j`, `k`, `l` to navigate the board.
+4. Press `<CR>` (Enter) to flip a card.
+5. Match all pairs to win the game.
+6. Press `q` to quit the game at any time.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
